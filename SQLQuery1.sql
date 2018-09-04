@@ -1,0 +1,3 @@
+﻿ALTER DATABASE SportssStore SET SINGLE_USER WITH ROLLBACK IMMEDIATE;
+EXEC sp_renamedb N'SportssStore',N'SportsStore';
+ALTER DATABASE [SportsStore] SET MULTI_USER;
